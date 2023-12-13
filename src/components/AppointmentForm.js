@@ -176,11 +176,11 @@ const AppointmentForm = ({
           })),
         };
 
-        isEdit?toast.success('Update successful!', { autoClose: 2000 }):toast.success('Submit successful!', { autoClose: 2000 });
+        isEdit ? toast.success('Update successful!', { autoClose: 2000 }) : toast.success('Submit successful!', { autoClose: 2000 });
         onSave(formattedData);
-        
+
         onClose();
-        
+
       }
     } else {
       setFormErrors(errors);
@@ -211,7 +211,7 @@ const AppointmentForm = ({
 
   return (
     <div>
-      <ToastContainer position='bottom-center'/>
+      <ToastContainer position='bottom-center' />
       <Dialog open={isOpen} onClose={onClose}>
         <DialogTitle className='title'>{isEdit ? 'Edit' : 'Add'} Client</DialogTitle>
         <DialogActions>
@@ -323,7 +323,7 @@ const AppointmentForm = ({
             </div>
 
             <div className='submit-reset-buttons'>
-              <Button  variant="contained" color="success" type='submit'>
+              <Button variant="contained" color="success" type='submit'>
                 {isEdit ? 'Update' : 'Submit'}
               </Button>
               {!isEdit && (
@@ -332,7 +332,7 @@ const AppointmentForm = ({
                 </Button>
               )}
             </div>
-                  
+
           </form>
         </DialogContent>
       </Dialog>

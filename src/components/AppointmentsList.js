@@ -1,9 +1,9 @@
-import {Grid } from '@mui/material';
+import { Grid } from '@mui/material';
 import React from 'react';
 import ClientDetails from './ClientDetails';
 
 const AppointmentsList = ({ clients, onDelete, onEdit }) => {
-  
+
   return (
     <Grid container spacing={2} style={{ marginTop: '10px' }} >
       {clients.map((client) => (

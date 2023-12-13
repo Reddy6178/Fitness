@@ -1,16 +1,15 @@
-  
 .border {
     border: solid;
 }
-  
+
 .fullHeightCard {
     height: 100%;
 }
 
-.editIcon{
+.editIcon {
     margin-right: 10px !important;
 }
-  
+
 .card {
     display: flex;
     flex-direction: column;
@@ -19,25 +18,24 @@
     height: 100%;
     position: relative;
 }
-  
+
 .title {
     padding: 0 16px;
 }
+
 .overlay {
     top: 20px;
     left: 20px;
     background-color: #CED7D4;
-   color: #AE4951;
+    color: #AE4951;
 }
-  
+
 .overlay2 {
     position: absolute;
     top: 20px;
     right: 20px;
 }
 
-
-  
 .main-container {
     background-color: #0B2637;
-  }
+}
