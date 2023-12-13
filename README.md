@@ -1,4 +1,4 @@
-## Himana Jonnalagadda
+## Krishna Reddy Ganugapenta
 
 # Fitness Trainer Appointment Scheduling Project
 
@@ -27,7 +27,7 @@ This front-end project aims to empower fitness trainers with an intuitive web ap
 
 2. Navigate to the project directory:
 
-        cd fitness-trainer-appointment-scheduling-project
+        cd "Project_Name"
 
 3. Install dependencies:
 
